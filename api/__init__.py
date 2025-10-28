@@ -1,0 +1,1 @@
+"""CineFlix FastAPI backend package."""
