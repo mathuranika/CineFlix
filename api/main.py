@@ -8,7 +8,7 @@ app = FastAPI(title="CineFlix Backend", version="1.0")
 # CORS setup for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://cineflix-vert.vercel.app/"],  
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
